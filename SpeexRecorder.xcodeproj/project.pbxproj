@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC8CA77A1819023200B1FBD0 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8CA7781819023200B1FBD0 /* libogg.a */; };
+		CC8CA77B1819023200B1FBD0 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8CA7791819023200B1FBD0 /* libspeex.a */; };
+		CC8CA77E1819165400B1FBD0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8CA77D1819165400B1FBD0 /* AudioToolbox.framework */; };
+		CC8CA780181A61EC00B1FBD0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC8CA77F181A61EC00B1FBD0 /* ViewController.mm */; };
+		CC8CA782181A6D0200B1FBD0 /* SpeexRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC8CA781181A6D0200B1FBD0 /* SpeexRecorder.mm */; };
+		CC8CA784181A6D3C00B1FBD0 /* SpeexPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC8CA783181A6D3C00B1FBD0 /* SpeexPlayer.mm */; };
+		CCA1CC1218176C61005C656F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC1118176C61005C656F /* UIKit.framework */; };
+		CCA1CC1418176C61005C656F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC1318176C61005C656F /* Foundation.framework */; };
+		CCA1CC1618176C61005C656F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC1518176C61005C656F /* CoreGraphics.framework */; };
+		CCA1CC1C18176C61005C656F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC1A18176C61005C656F /* InfoPlist.strings */; };
+		CCA1CC1E18176C61005C656F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1CC1D18176C61005C656F /* main.m */; };
+		CCA1CC2218176C61005C656F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1CC2118176C61005C656F /* AppDelegate.m */; };
+		CCA1CC2418176C61005C656F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC2318176C61005C656F /* Default.png */; };
+		CCA1CC2618176C61005C656F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC2518176C61005C656F /* Default@2x.png */; };
+		CCA1CC2818176C62005C656F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC2718176C61005C656F /* Default-568h@2x.png */; };
+		CCA1CC2E18176C62005C656F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC2C18176C62005C656F /* ViewController.xib */; };
+		CCA1CC3618176C62005C656F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC3518176C62005C656F /* SenTestingKit.framework */; };
+		CCA1CC3718176C62005C656F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC1118176C61005C656F /* UIKit.framework */; };
+		CCA1CC3818176C62005C656F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1CC1318176C61005C656F /* Foundation.framework */; };
+		CCA1CC4018176C62005C656F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA1CC3E18176C62005C656F /* InfoPlist.strings */; };
+		CCA1CC4318176C62005C656F /* SpeexRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1CC4218176C62005C656F /* SpeexRecorderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA1CC3918176C62005C656F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA1CC0618176C61005C656F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA1CC0D18176C61005C656F;
+			remoteInfo = SpeexRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC8CA7781819023200B1FBD0 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = SpeexRecorder/lib/libogg.a; sourceTree = "<group>"; };
+		CC8CA7791819023200B1FBD0 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeex.a; path = SpeexRecorder/lib/libspeex.a; sourceTree = "<group>"; };
+		CC8CA77D1819165400B1FBD0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC8CA77F181A61EC00B1FBD0 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		CC8CA781181A6D0200B1FBD0 /* SpeexRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpeexRecorder.mm; sourceTree = "<group>"; };
+		CC8CA783181A6D3C00B1FBD0 /* SpeexPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpeexPlayer.mm; sourceTree = "<group>"; };
+		CCA1CC0E18176C61005C656F /* SpeexRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeexRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA1CC1118176C61005C656F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCA1CC1318176C61005C656F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCA1CC1518176C61005C656F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCA1CC1918176C61005C656F /* SpeexRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeexRecorder-Info.plist"; sourceTree = "<group>"; };
+		CCA1CC1B18176C61005C656F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA1CC1D18176C61005C656F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA1CC1F18176C61005C656F /* SpeexRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeexRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		CCA1CC2018176C61005C656F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA1CC2118176C61005C656F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA1CC2318176C61005C656F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCA1CC2518176C61005C656F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCA1CC2718176C61005C656F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCA1CC2918176C62005C656F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA1CC2D18176C62005C656F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CCA1CC3418176C62005C656F /* SpeexRecorderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeexRecorderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA1CC3518176C62005C656F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCA1CC3D18176C62005C656F /* SpeexRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeexRecorderTests-Info.plist"; sourceTree = "<group>"; };
+		CCA1CC3F18176C62005C656F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA1CC4118176C62005C656F /* SpeexRecorderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeexRecorderTests.h; sourceTree = "<group>"; };
+		CCA1CC4218176C62005C656F /* SpeexRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeexRecorderTests.m; sourceTree = "<group>"; };
+		CCA1CC4D1817AD0A005C656F /* SpeexPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexPlayer.h; sourceTree = "<group>"; };
+		CCA1CC581817C835005C656F /* SpeexRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexRecorder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA1CC0B18176C61005C656F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8CA77E1819165400B1FBD0 /* AudioToolbox.framework in Frameworks */,
+				CC8CA77A1819023200B1FBD0 /* libogg.a in Frameworks */,
+				CC8CA77B1819023200B1FBD0 /* libspeex.a in Frameworks */,
+				CCA1CC1218176C61005C656F /* UIKit.framework in Frameworks */,
+				CCA1CC1418176C61005C656F /* Foundation.framework in Frameworks */,
+				CCA1CC1618176C61005C656F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA1CC3018176C62005C656F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1CC3618176C62005C656F /* SenTestingKit.framework in Frameworks */,
+				CCA1CC3718176C62005C656F /* UIKit.framework in Frameworks */,
+				CCA1CC3818176C62005C656F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC8CA7241818B9B000B1FBD0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CA783181A6D3C00B1FBD0 /* SpeexPlayer.mm */,
+				CC8CA781181A6D0200B1FBD0 /* SpeexRecorder.mm */,
+				CCA1CC581817C835005C656F /* SpeexRecorder.h */,
+				CCA1CC4D1817AD0A005C656F /* SpeexPlayer.h */,
+			);
+			name = Classes;
+			path = SpeexRecorder;
+			sourceTree = "<group>";
+		};
+		CC8CA77C1819023B00B1FBD0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CA7781819023200B1FBD0 /* libogg.a */,
+				CC8CA7791819023200B1FBD0 /* libspeex.a */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		CCA1CC0518176C61005C656F = {
+			isa = PBXGroup;
+			children = (
+				CC8CA7241818B9B000B1FBD0 /* Classes */,
+				CC8CA77C1819023B00B1FBD0 /* Lib */,
+				CCA1CC1718176C61005C656F /* SpeexRecorder */,
+				CCA1CC3B18176C62005C656F /* SpeexRecorderTests */,
+				CCA1CC1018176C61005C656F /* Frameworks */,
+				CCA1CC0F18176C61005C656F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA1CC0F18176C61005C656F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1CC0E18176C61005C656F /* SpeexRecorder.app */,
+				CCA1CC3418176C62005C656F /* SpeexRecorderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA1CC1018176C61005C656F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1CC1118176C61005C656F /* UIKit.framework */,
+				CCA1CC1318176C61005C656F /* Foundation.framework */,
+				CCA1CC1518176C61005C656F /* CoreGraphics.framework */,
+				CCA1CC3518176C62005C656F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA1CC1718176C61005C656F /* SpeexRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CA77F181A61EC00B1FBD0 /* ViewController.mm */,
+				CCA1CC2018176C61005C656F /* AppDelegate.h */,
+				CCA1CC2118176C61005C656F /* AppDelegate.m */,
+				CCA1CC2918176C62005C656F /* ViewController.h */,
+				CCA1CC2C18176C62005C656F /* ViewController.xib */,
+				CCA1CC1818176C61005C656F /* Supporting Files */,
+			);
+			path = SpeexRecorder;
+			sourceTree = "<group>";
+		};
+		CCA1CC1818176C61005C656F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1CC1918176C61005C656F /* SpeexRecorder-Info.plist */,
+				CCA1CC1A18176C61005C656F /* InfoPlist.strings */,
+				CCA1CC1D18176C61005C656F /* main.m */,
+				CCA1CC1F18176C61005C656F /* SpeexRecorder-Prefix.pch */,
+				CCA1CC2318176C61005C656F /* Default.png */,
+				CCA1CC2518176C61005C656F /* Default@2x.png */,
+				CCA1CC2718176C61005C656F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA1CC3B18176C62005C656F /* SpeexRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1CC4118176C62005C656F /* SpeexRecorderTests.h */,
+				CCA1CC4218176C62005C656F /* SpeexRecorderTests.m */,
+				CCA1CC3C18176C62005C656F /* Supporting Files */,
+			);
+			path = SpeexRecorderTests;
+			sourceTree = "<group>";
+		};
+		CCA1CC3C18176C62005C656F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1CC3D18176C62005C656F /* SpeexRecorderTests-Info.plist */,
+				CCA1CC3E18176C62005C656F /* InfoPlist.strings */,
+				CC8CA77D1819165400B1FBD0 /* AudioToolbox.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA1CC0D18176C61005C656F /* SpeexRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA1CC4618176C62005C656F /* Build configuration list for PBXNativeTarget "SpeexRecorder" */;
+			buildPhases = (
+				CCA1CC0A18176C61005C656F /* Sources */,
+				CCA1CC0B18176C61005C656F /* Frameworks */,
+				CCA1CC0C18176C61005C656F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeexRecorder;
+			productName = SpeexRecorder;
+			productReference = CCA1CC0E18176C61005C656F /* SpeexRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA1CC3318176C62005C656F /* SpeexRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA1CC4918176C62005C656F /* Build configuration list for PBXNativeTarget "SpeexRecorderTests" */;
+			buildPhases = (
+				CCA1CC2F18176C62005C656F /* Sources */,
+				CCA1CC3018176C62005C656F /* Frameworks */,
+				CCA1CC3118176C62005C656F /* Resources */,
+				CCA1CC3218176C62005C656F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA1CC3A18176C62005C656F /* PBXTargetDependency */,
+			);
+			name = SpeexRecorderTests;
+			productName = SpeexRecorderTests;
+			productReference = CCA1CC3418176C62005C656F /* SpeexRecorderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA1CC0618176C61005C656F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Yuantel.com;
+			};
+			buildConfigurationList = CCA1CC0918176C61005C656F /* Build configuration list for PBXProject "SpeexRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCA1CC0518176C61005C656F;
+			productRefGroup = CCA1CC0F18176C61005C656F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA1CC0D18176C61005C656F /* SpeexRecorder */,
+				CCA1CC3318176C62005C656F /* SpeexRecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA1CC0C18176C61005C656F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1CC1C18176C61005C656F /* InfoPlist.strings in Resources */,
+				CCA1CC2418176C61005C656F /* Default.png in Resources */,
+				CCA1CC2618176C61005C656F /* Default@2x.png in Resources */,
+				CCA1CC2818176C62005C656F /* Default-568h@2x.png in Resources */,
+				CCA1CC2E18176C62005C656F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA1CC3118176C62005C656F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1CC4018176C62005C656F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCA1CC3218176C62005C656F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA1CC0A18176C61005C656F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1CC1E18176C61005C656F /* main.m in Sources */,
+				CCA1CC2218176C61005C656F /* AppDelegate.m in Sources */,
+				CC8CA780181A61EC00B1FBD0 /* ViewController.mm in Sources */,
+				CC8CA782181A6D0200B1FBD0 /* SpeexRecorder.mm in Sources */,
+				CC8CA784181A6D3C00B1FBD0 /* SpeexPlayer.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA1CC2F18176C62005C656F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1CC4318176C62005C656F /* SpeexRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA1CC3A18176C62005C656F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA1CC0D18176C61005C656F /* SpeexRecorder */;
+			targetProxy = CCA1CC3918176C62005C656F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA1CC1A18176C61005C656F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA1CC1B18176C61005C656F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCA1CC2C18176C62005C656F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA1CC2D18176C62005C656F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CCA1CC3E18176C62005C656F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA1CC3F18176C62005C656F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA1CC4418176C62005C656F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA1CC4518176C62005C656F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA1CC4718176C62005C656F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexRecorder/SpeexRecorder-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/SpeexRecorder/include\"/**";
+				INFOPLIST_FILE = "SpeexRecorder/SpeexRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpeexRecorder/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCA1CC4818176C62005C656F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexRecorder/SpeexRecorder-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/SpeexRecorder/lib\"/**";
+				INFOPLIST_FILE = "SpeexRecorder/SpeexRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpeexRecorder/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCA1CC4A18176C62005C656F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeexRecorder.app/SpeexRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexRecorder/SpeexRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SpeexRecorderTests/SpeexRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CCA1CC4B18176C62005C656F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeexRecorder.app/SpeexRecorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexRecorder/SpeexRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SpeexRecorderTests/SpeexRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA1CC0918176C61005C656F /* Build configuration list for PBXProject "SpeexRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA1CC4418176C62005C656F /* Debug */,
+				CCA1CC4518176C62005C656F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA1CC4618176C62005C656F /* Build configuration list for PBXNativeTarget "SpeexRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA1CC4718176C62005C656F /* Debug */,
+				CCA1CC4818176C62005C656F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA1CC4918176C62005C656F /* Build configuration list for PBXNativeTarget "SpeexRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA1CC4A18176C62005C656F /* Debug */,
+				CCA1CC4B18176C62005C656F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA1CC0618176C61005C656F /* Project object */;
+}
